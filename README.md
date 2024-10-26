@@ -1,49 +1,54 @@
 <img width="1280" alt="readme-banner" src="https://github.com/user-attachments/assets/35332e92-44cb-425b-9dff-27bcf1023c6c">
 
-# [Project Name] 🎯
+# Legendloom 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Espada 3
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: Saad Abdul Latheef - College of Engineering Trivandrum
+- Member 2: Amal Nissar - TKM College of Engineering KOLLAM
+- Member 3: Alan Joshi George - TKM College of Engineering KOLLAM
 
 ### Project Description
-[2-3 lines about what your project does]
+An AI powered social media platform to explore the variety of uniqueness and art of AI against human.
+Connecting stories across the platform to generate an ultimate saga.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+To quench the thirst of people for AI powered fantasy building
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+A safespot for people to expand the horizon of imagination in the field of ai
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- Python, HTML, CSS
+- django
+- Flask
+- VS code
 
 ### Implementation
 For Software:
-# Installation
-[commands]
+pip install flask
+pip install google-generativeai
 
 # Run
 [commands]
+python app.py
 
 ### Project Documentation
 For Software:
+After beginning the app login page will popup
+Sign in with any username and password (doesn't affect the website)
+If you click the profile tab on top-right corner of the page you can find your profile
+You can edit your information according to the story you would like to create
+update profile
+back to feed
+On feed's page you can generate a story based on your profile by clicking Generate story
+or Connect with other people's posts and create a new story by forming an alliance with the other person's character
 
 # Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
@@ -59,37 +64,11 @@ For Software:
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
 
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Saad: App Development
+- Amal: Idea pitching
+- Alan: Designing
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
