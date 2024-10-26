@@ -64,6 +64,8 @@ or Connect with other people's posts and create a new story by forming an allian
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
 
+# Video
+<a href='https://youtu.be/MjPFc0Ujggg'>https://youtu.be/MjPFc0Ujggg</a>
 
 ## Team Contributions
 - Saad: App Development
