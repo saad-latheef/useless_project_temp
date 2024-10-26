@@ -20,7 +20,10 @@ Connecting stories across the platform to generate an ultimate saga.
 To quench the thirst of people for AI powered fantasy building
 
 ### The Solution (that nobody asked for)
-A safespot for people to expand the horizon of imagination in the field of ai
+A safespot for people to expand the horizon of imagination in the field of AI
+
+## LegendLoom
+Legendloom gives user a large social connections. With the help of AI we can create stories that gives endless possibilities and outcome. The key feature of LegendLoom is that it can connect with other peoples posts and create a far more exciting story with more twists and events. LegendLoom also provides a large network of likely minded people and a messaging service to stepup you're connections.
 
 ## Technical Details
 ### Technologies/Components Used
@@ -51,18 +54,14 @@ On feed's page you can generate a story based on your profile by clicking Genera
 or Connect with other people's posts and create a new story by forming an alliance with the other person's character
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="1280" alt="loginmain" src="loginmain.jpg">
+Login page
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+<img width="1280" alt="feed" src="feedmain.jpg">
+Feed page 
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+<img width="1280" alt="feed" src="profilemain.jpg">
+Profile page
 
 # Video
 <a href='https://youtu.be/MjPFc0Ujggg'>https://youtu.be/MjPFc0Ujggg</a>
