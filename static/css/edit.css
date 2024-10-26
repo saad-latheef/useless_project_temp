@@ -1,0 +1,145 @@
+
+/* Import Font Dancing Script */
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(bgbad.jpeg) ;
+    font-family: Arial;
+    overflow: hidden;
+}
+
+/* NavbarTop */
+.navbar-top {
+    background-color:rgba(40, 40, 40, 0.8);
+    color: #e1e1e1;
+    box-shadow: 0px 4px 8px 0px #4a2b80;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-family: Arial, sans-serif;
+    padding-top: 20px;
+}
+.header-title {
+    font-size: 30px;
+    padding: 20px;
+}
+
+
+.formss{
+    max-width: 700px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: auto;
+    height: 510px;
+    background-color: #2d2d2d;
+    opacity: 75%;
+    border-radius: 25px;
+}
+
+.nade{
+    font-size: medium;
+    text-align: left;
+    margin-left: 230px;
+    color: #e1e1e1;
+}
+
+._1{
+    margin-left: 50px;
+}
+._2{
+    margin-left: 19px;
+}
+._3{
+    margin-left: 43px;
+}
+._4{
+    margin-left: 40px;
+}
+._5{
+    margin-left: 22px;
+}
+._6{
+    margin-left: 5px;
+}
+
+.button-6 {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+  margin-left: 290px;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+.inputbox{
+box-shadow: inset #abacaf 0 0 0 2px;
+border: 0;
+background: rgba(0, 0, 0, 0);
+appearance: none;
+
+position: relative;
+border-radius: 3px;
+
+line-height: 1.4;
+color: rgb(0, 0, 0);
+font-size: 16px;
+font-weight: 400;
+height: 40px;
+transition: all .2s ease;
+}
+:hover{
+    box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 2px;
+}
+:focus{
+    background: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 3px;
+}

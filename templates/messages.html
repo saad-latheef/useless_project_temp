@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messages</title>
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --background-color: #ecf0f1;
+            --text-color: #333;
+            --hover-color: #e0e0e0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #2d2d2d, #4a2b80);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        input{
+            margin-left: 460px;
+            margin-top: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color:rgba(40, 40, 40, 0.8);
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        h1 {
+            margin-bottom: 15px;
+        }
+
+        .search-bar {
+            width: 100%;
+            max-width: 400px;
+            padding: 10px;
+            border: none;
+            border-radius: 20px;
+            font-size: 16px;
+        }
+
+        .contacts-list {
+            margin-top: 20px;
+            background-color: rgba(40, 40, 40, 0.8);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact:last-child {
+            border-bottom: none;
+        }
+
+        .contact:hover {
+            background-color: var(--hover-color);
+        }
+
+        .contact-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+            object-fit: cover;
+        }
+
+        .contact-info {
+            flex-grow: 1;
+        }
+
+        .contact-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #c09cff;
+        }
+
+        .contact-message {
+            font-size: 14px;
+            color: #ffffff;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+
+            header {
+                padding: 15px;
+            }
+
+            .search-bar {
+                font-size: 14px;
+            }
+
+            .contact {
+                padding: 10px;
+            }
+
+            .contact-avatar {
+                width: 40px;
+                height: 40px;
+            }
+
+            .contact-name {
+                font-size: 16px;
+            }
+
+            .contact-message {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="header-title">𝔏𝔢𝔤𝔢𝔫𝔡𝔏𝔬𝔬𝔪</h1>
+        <h1>Messages</h1>
+        
+    </header>
+    <input type="text" class="search-bar" placeholder="Search contacts...">
+    <div class="container">
+        <div class="contacts-list">
+            <div class="contact">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1rNuFRQJ0m9EkNrwaJtyxCSEfY7Rz35rC_g&s" alt="Alice" class="contact-avatar">
+                <div class="contact-info">
+                    <div class="contact-name">Alice Johnson</div>
+                    <div class="contact-message">Hey, how's it going?</div>
+                </div>
+            </div>
+            <div class="contact">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1rNuFRQJ0m9EkNrwaJtyxCSEfY7Rz35rC_g&s" alt="Bob" class="contact-avatar">
+                <div class="contact-info">
+                    <div class="contact-name">Bob Smith</div>
+                    <div class="contact-message">Did you see the game last night?</div>
+                </div>
+            </div>
+            <div class="contact">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1rNuFRQJ0m9EkNrwaJtyxCSEfY7Rz35rC_g&s" alt="Charlie" class="contact-avatar">
+                <div class="contact-info">
+                    <div class="contact-name">Charlie Brown</div>
+                    <div class="contact-message">Let's meet up for coffee!</div>
+                </div>
+            </div>
+            <div class="contact">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1rNuFRQJ0m9EkNrwaJtyxCSEfY7Rz35rC_g&s" alt="Diana" class="contact-avatar">
+                <div class="contact-info">
+                    <div class="contact-name">Diana Ross</div>
+                    <div class="contact-message">Can you send me the project files?</div>
+                </div>
+            </div>
+            <div class="contact">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1rNuFRQJ0m9EkNrwaJtyxCSEfY7Rz35rC_g&s" alt="Ethan" class="contact-avatar">
+                <div class="contact-info">
+                    <div class="contact-name">Ethan Hunt</div>
+                    <div class="contact-message">Mission accomplished!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

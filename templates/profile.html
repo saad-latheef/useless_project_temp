@@ -1,0 +1,123 @@
+{% block content %}
+<title>Profile Page</title>
+
+    <!-- Custom Css -->
+<link rel="stylesheet" href="{{ url_for('static', filename='profile.css') }}">
+
+    <!-- FontAwesome 5 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+<body>
+    <!-- Navbar top -->
+    <div class="navbar-top">
+        <div class="title">
+            <h1 class="header-title">𝔏𝔢𝔤𝔢𝔫𝔡𝔏𝔬𝔬𝔪</h1>
+            <h1>Profile</h1>
+        </div>
+
+        <!-- Navbar -->
+        <ul>
+            <li>
+                <a href="#message">
+                    <span class="icon-count">29</span>
+                    <i class="fa fa-envelope fa-2x"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#notification">
+                    <span class="icon-count">59</span>
+                    <i class="fa fa-bell fa-2x"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#sign-out">
+                    <i class="fa fa-sign-out-alt fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+        <!-- End -->
+    </div>
+    <!-- End -->
+
+    <!-- Sidenav -->
+    <div class="sidenav">
+        <div class="profile">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1rNuFRQJ0m9EkNrwaJtyxCSEfY7Rz35rC_g&s" alt="" width="100" height="100">
+
+            <div class="name">
+                <p>{{ name }}</p>
+            </div>
+        </div>
+
+        <div class="sidenav-url">
+            <div class="url">
+                <a href="" class="active">Profile</a>
+                <hr align="center">
+            </div>
+            <div class="url">
+                <a href="#settings">Settings</a>
+                <hr align="center">
+            </div>
+            <div class="url">
+                <a href="/story_feed">Feed</a>
+                <hr align="center">
+            </div>
+        </div>
+    </div>
+    <!-- End -->
+
+    <!-- Main -->
+    <div class="main">
+        <h2>IDENTITY</h2>
+        <div class="card">
+            <div class="card-body">
+                <i class="fa fa-pen fa-xs edit"></i>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Username</td>
+                            <td>:</td>
+                            <td>{{ username }}</td>
+                        </tr>
+
+                        <tr>
+                            <td>Name</td>
+                            <td>:</td>
+                            <td>{{ name }}</td>
+                        </tr>
+
+                        <tr>
+                            <td>Interests</td>
+                            <td>:</td>
+                            <td>{{ intrest }}</td>
+                        </tr>
+                        <tr>
+                            <td>Character</td>
+                            <td>:</td>
+                            <td>{{ charecter }}</td>
+                        </tr>
+                        <tr>
+                            <td>Theme</td>
+                            <td>:</td>
+                            <td>{{ theme }}</td>
+                        </tr>
+                        <tr>
+                            <td>Superpower</td>
+                            <td>:</td>
+                            <td>{{ superpower }}</td>
+                        </tr>
+                        <tr>
+                            <a href="{{ url_for('edit') }}">EDIT</a>
+                        </tr>
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- End -->
+</body>
+
+</html>
+{% endblock %}

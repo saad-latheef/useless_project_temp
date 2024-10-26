@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegendLoom</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-title">𝔏𝔢𝔤𝔢𝔫𝔡𝔏𝔬𝔬𝔪</h1>
+        <nav class="header-nav">
+            <a href="#" class="nav-link">Home</a>
+            <a href="/profile" class="nav-link">Profile</a>
+            <a href="/messages" class="nav-link">Messages</a>
+        </nav>
+    </header>
+    <main>
+        <section class="story-section">
+            <div class="story-generator">
+                <form method="POST">
+                    <input type="submit" class="btn" name="btn1" value="Genrate Story">
+                </form>
+            </div>
+            <div id="story-feed" class="story-feed">
+                {% for story in stories %}
+                <div class="story-card" data-id="{{ story.id }}">
+                    <div class="card-header">
+                        <div class="avatar">{{ story.author[0] }}</div>
+                        <div>
+                            <h3 class="author-name">{{ story.author }}</h3>
+                            <p class="post-time">Just now</p>
+                            
+                        </div>
+                    </div>
+                    <p class="story-content">{{ story.story }}</p>
+                    <div class="card-actions">
+                        <button class="btn">❤️ {{ story.likes }}</button>
+                        <button class="btn">💬 {{ story.comments }}</button>
+                        <button class="btn">🔗 Share</button>
+                        <form method="POST">
+                            <input type="submit" class="btn" name="btn1" value="Connect">
+                            <input name="man" id="man" class="man" type="text" value='{{ story.id }}'>
+                        </form>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+    </main>
+</body>
+</html>

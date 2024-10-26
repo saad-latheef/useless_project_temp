@@ -1,0 +1,54 @@
+
+{% block content %}
+
+<link rel="stylesheet" href="/static/css/edit.css">
+<div class="navbar-top">
+    <h1 class="header-title">𝔏𝔢𝔤𝔢𝔫𝔡𝔏𝔬𝔬𝔪</h1>
+    <h1 class="title">Personal Details</h1>
+</div>
+<div class="formss">
+    <form method="POST" class="mb-4">
+        <p>  ‎  </p>
+        <p> ‎  </p>
+        <div class="mb-4">
+            <label for="risk" class="nade">Name</label>
+            <input type="name" name="name1" id="name1" placeholder=" Enter Name"  class="inputbox _1">
+        </div>
+        <p> ‎  </p>
+        <div class="mb-4">
+            <label for="amount" class="nade">Username</label>
+            <input type="name" name="username1" id="username1" placeholder=" Enter Username"  class="inputbox _2" >
+        </div>
+        <p> ‎  </p>
+        <div class="mb-4">
+            <label for="amount" class="nade">Theme</label>
+            <input type="name" name="theme1" id="theme1" placeholder=" Enter Theme"  class="inputbox _3">
+        </div>
+        <p> ‎  </p>
+        <div class="mb-4">
+            <label for="risk" class="nade">Interest</label>
+            <input type="name" name="intrest1" id="intrest1" placeholder=" Enter Interest"  class="inputbox _4">
+        </div>
+        <p> ‎  </p>
+        <div class="mb-4">
+            <label for="amount" class="nade">Character</label>
+            <input type="name" name="charecter1" id="charecter1" placeholder=" Enter character"  class="inputbox _5">
+        </div>
+        <p> ‎  </p>
+        <div class="mb-4">
+            <label for="amount" class="nade">Superpower</label>
+            <input type="name" name="superpower1" id="superpower1" placeholder=" Enter Superpower"  class="inputbox _6">
+        </div>
+        <p> ‎  </p>
+        <button type="submit" class="button-6" >Update details</button>
+    </form>
+    <form action="{{url_for('profile')}}">
+        <p> ‎  </p>
+        <div class="input-box button">
+            <input type="submit" class="button-6"  name="" value="Back to profile">
+        </div>
+    </form>
+</div>
+</body>
+</html>
+{% endblock %}

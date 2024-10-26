@@ -1,0 +1,103 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('bg.jpeg');
+    color: #e1e1e1;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(40, 40, 40, 0.8);
+}
+
+.header-title {
+    color: #e1e1e1;
+    font-size: 35px;
+    padding: 20px;
+    margin-left: 550px;
+}
+
+a {
+    color: #d3d3d3;
+  position: relative;
+  text-decoration: none;
+  padding: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #d3d3d3;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
+
+a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.story-section {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.story-generator {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.story-feed .story-card {
+    background: rgba(26, 26, 26, 0.93);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 15px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #a389d4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.btn {
+    background-color: #a389d4;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.man{
+    display: none;
+}
+img {
+    height: 50px;
+    width: 100px;
+}
