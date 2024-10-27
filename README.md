@@ -3,6 +3,9 @@
 # Legendloom 🎯
 
 
+## Checkout LegendLoom   <a href='https://useless-project-temp-xi.vercel.app/'> Vercel App </a>
+
+
 ## Basic Details
 ### Team Name: Espada 3
 
@@ -65,7 +68,7 @@ Profile page
 
 # Video
 <a href='https://youtu.be/MjPFc0Ujggg'>https://youtu.be/MjPFc0Ujggg</a>
-<a href='https://useless-project-temp-xi.vercel.app/'> Vercel App </a>
+
 
 ## Team Contributions
 - Saad: App Development
