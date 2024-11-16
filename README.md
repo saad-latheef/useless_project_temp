@@ -69,6 +69,9 @@ Profile page
 # Video
 <a href='https://youtu.be/MjPFc0Ujggg'>https://youtu.be/MjPFc0Ujggg</a>
 
+# Link to the app
+<a href='https://useless-project-temp-xi.vercel.app/'>https://useless-project-temp-xi.vercel.app/</a>
+
 
 ## Team Contributions
 - Saad: App Development
